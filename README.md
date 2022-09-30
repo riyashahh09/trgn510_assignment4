@@ -60,3 +60,4 @@ Hospital_Covid_PerCounty.head()
 sns.set_theme(style="ticks")
 sns.relplot(data=Hospital_Covid_PerCounty, x="people_per_bed", y="mortality", hue="confirmed", size="population", sizes=(40, 400))
 ```
+![Graph](https://drive.google.com/uc?export=view&id=1__Q_XzeHKUDWdwfI_aHL1iR_5wF7xRAI)
